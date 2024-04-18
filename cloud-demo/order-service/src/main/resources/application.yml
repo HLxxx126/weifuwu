@@ -1,6 +1,13 @@
 server:
   port: 8080
 spring:
+  cloud:
+    nacos:
+      server-addr: localhost:8848 #nacos服务端地址
+      discovery:
+        cluster-name: HZ
+        namespace: f6f1b44f-5811-4da5-89ca-f6e3ad47e6ec #dev环境
+        ephemeral: false #是否是临时实例
   datasource:
     url: jdbc:mysql://localhost:3306/cloud_order?useSSL=false
     username: root
@@ -8,10 +15,10 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
   application:
     name: orderservice  #order服务的服务名称
-eureka:
-  client:
-    service-url: #eureka的地址信息
-      defaultZone: http://127.0.0.1:10086/eureka
+#eureka:
+#  client:
+#    service-url: #eureka的地址信息
+#      defaultZone: http://127.0.0.1:10086/eureka
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
   configuration:
@@ -23,7 +30,8 @@ logging:
     dateformat: MM-dd HH:mm:ss:SSS
 userservice:
   ribbon:
-    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule  #修改负载均衡规则
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule  #修改负载均衡规则
+    NFLoadBalancerRuleClassName: com.alibaba.cloud.nacos.ribbon.NacosRule #负载均衡规则，优先相同集群
 ribbon:
   eager-load:
     enabled: true #开启饥饿加载
