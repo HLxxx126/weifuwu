@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f30dce0d-c507-4d89-855c-e961fd4c8d20" name="Changes" comment="ribbon负载均衡修改方式，饥饿加载">
+    <list default="true" id="f30dce0d-c507-4d89-855c-e961fd4c8d20" name="Changes" comment="Nacos注册中心">
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/config/PatternProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-service/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/cn/itcast/user/web/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/cn/itcast/user/web/UserController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +73,7 @@
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "spring.boot",
     "spring.configuration.checksum": "93323aa9bdda62807196cceaff038e16",
     "vue.rearranger.settings.migration": "true"
   },
@@ -124,6 +125,7 @@
       </method>
     </configuration>
     <configuration name="UserApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="ACTIVE_PROFILES" value="test" />
       <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.user.UserApplication" />
       <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
@@ -170,7 +172,7 @@
       <updated>1713355221397</updated>
       <workItem from="1713355222594" duration="5306000" />
       <workItem from="1713361409719" duration="109000" />
-      <workItem from="1713361523298" duration="8845000" />
+      <workItem from="1713361523298" duration="13359000" />
     </task>
     <task id="LOCAL-00001" summary="初始代码">
       <option name="closed" value="true" />
@@ -204,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713408550397</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Nacos注册中心">
+      <option name="closed" value="true" />
+      <created>1713430424898</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713430424898</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +225,11 @@
     <MESSAGE value="restTemplate" />
     <MESSAGE value="Eureka注册中心" />
     <MESSAGE value="ribbon负载均衡修改方式，饥饿加载" />
-    <option name="LAST_COMMIT_MESSAGE" value="ribbon负载均衡修改方式，饥饿加载" />
+    <MESSAGE value="Nacos注册中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nacos注册中心" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
