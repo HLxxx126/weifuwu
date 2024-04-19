@@ -7,6 +7,7 @@ spring:
       discovery:
         cluster-name: HZ
         namespace: f6f1b44f-5811-4da5-89ca-f6e3ad47e6ec #dev环境
+        ephemeral: false #是否是临时实例
   datasource:
     url: jdbc:mysql://localhost:3306/cloud_order?useSSL=false
     username: root
