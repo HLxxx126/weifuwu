@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1049f500-6269-4f57-9891-98bc89944d95" name="Changes" comment="RestClient 查询酒店 初始代码">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/itcast/hotel/constants/HotelConstants.java" afterDir="false" />
+    <list default="true" id="1049f500-6269-4f57-9891-98bc89944d95" name="Changes" comment="操作索引库">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/itcast/hotel/HotelDocumentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cn/itcast/hotel/HotelIndexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cn/itcast/hotel/HotelIndexTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +54,13 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.HotelIndexTest.testExistsHotelIndex">
-    <configuration name="HotelIndexTest.createHotelIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.itcast.hotel" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HotelDocumentTest.testGetDocumentById">
+    <configuration name="HotelDocumentTest.testAddDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hotel-demo" />
       <extension name="coverage">
         <pattern>
@@ -63,14 +69,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.itcast.hotel" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelIndexTest" />
-      <option name="METHOD_NAME" value="createHotelIndex" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelDocumentTest" />
+      <option name="METHOD_NAME" value="testAddDocument" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelIndexTest.testDeleteHotelIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelDocumentTest.testDeleteDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hotel-demo" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +85,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.itcast.hotel" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelIndexTest" />
-      <option name="METHOD_NAME" value="testDeleteHotelIndex" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelDocumentTest" />
+      <option name="METHOD_NAME" value="testDeleteDocument" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelDocumentTest.testGetDocumentById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hotel-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.hotel" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelDocumentTest" />
+      <option name="METHOD_NAME" value="testGetDocumentById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelDocumentTest.testUpdateDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hotel-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.hotel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.itcast.hotel" />
+      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelDocumentTest" />
+      <option name="METHOD_NAME" value="testUpdateDocument" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,22 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelIndexTest.testInit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hotel-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.itcast.hotel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.itcast.hotel" />
-      <option name="MAIN_CLASS_NAME" value="cn.itcast.hotel.HotelIndexTest" />
-      <option name="METHOD_NAME" value="testInit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HotelDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="hotel-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.hotel.HotelDemoApplication" />
@@ -127,10 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HotelDocumentTest.testGetDocumentById" />
+        <item itemvalue="JUnit.HotelDocumentTest.testDeleteDocument" />
+        <item itemvalue="JUnit.HotelDocumentTest.testUpdateDocument" />
+        <item itemvalue="JUnit.HotelDocumentTest.testAddDocument" />
         <item itemvalue="JUnit.HotelIndexTest.testExistsHotelIndex" />
-        <item itemvalue="JUnit.HotelIndexTest.createHotelIndex" />
-        <item itemvalue="JUnit.HotelIndexTest.testDeleteHotelIndex" />
-        <item itemvalue="JUnit.HotelIndexTest.testInit" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +165,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713875683079</updated>
-      <workItem from="1713875684555" duration="3388000" />
+      <workItem from="1713875684555" duration="6482000" />
     </task>
     <task id="LOCAL-00001" summary="RestClient 查询酒店 初始代码">
       <option name="closed" value="true" />
@@ -160,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713878290435</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="操作索引库">
+      <option name="closed" value="true" />
+      <created>1713880299231</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713880299231</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="RestClient 查询酒店 初始代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="RestClient 查询酒店 初始代码" />
+    <MESSAGE value="操作索引库" />
+    <option name="LAST_COMMIT_MESSAGE" value="操作索引库" />
   </component>
 </project>

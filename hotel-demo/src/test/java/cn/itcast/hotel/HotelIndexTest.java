@@ -45,7 +45,7 @@ public class HotelIndexTest {
     void testExistsHotelIndex() throws IOException {
         GetIndexRequest request = new GetIndexRequest("hotel");
         boolean exists = client.indices().exists(request, RequestOptions.DEFAULT);
-        System.out.println(exists);
+        System.out.println(exists ? "索引库已经存在！" : "索引库不存在！");
     }
     @Test
     void testDeleteHotelIndex() throws IOException {
