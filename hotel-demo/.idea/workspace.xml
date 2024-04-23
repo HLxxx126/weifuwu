@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1049f500-6269-4f57-9891-98bc89944d95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/gateway/src/main/java/cn/itcast/gateway/AuthorizeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/gateway/src/main/java/cn/itcast/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cloud-demo/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cn/itcast/hotel/HotelIndexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-demo/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-demo/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-demo/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-demo/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-demo/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-demo/order-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-demo/order-service/target/classes/cn/itcast/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-demo/order-service/target/classes/cn/itcast/order/OrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-demo/order-service/target/classes/cn/itcast/order/pojo/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-demo/order-service/target/classes/cn/itcast/order/pojo/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-demo/order-service/target/classes/cn/itcast/order/pojo/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-demo/order-service/target/classes/cn/itcast/order/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-demo/order-service/target/classes/cn/itcast/order/service/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cloud-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud-demo/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2fVA4bnLN3drNdbjoTY7dJJ0hsx" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/dreammtank125/weifuwu/hotel-demo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="HotelDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="hotel-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.hotel.HotelDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1049f500-6269-4f57-9891-98bc89944d95" name="Changes" comment="" />
+      <created>1713875683079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713875683079</updated>
+      <workItem from="1713875684555" duration="929000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
