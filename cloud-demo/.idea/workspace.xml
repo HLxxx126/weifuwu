@@ -4,20 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f30dce0d-c507-4d89-855c-e961fd4c8d20" name="Changes" comment="Nacos配置管理">
-      <change afterPath="$PROJECT_DIR$/feign-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/feign-api/src/main/java/cn/itcast/feign/clients/UserClient.java" afterDir="false" />
+    <list default="true" id="f30dce0d-c507-4d89-855c-e961fd4c8d20" name="Changes" comment="Feign . http客户端">
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/cn/itcast/gateway/AuthorizeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/cn/itcast/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/pojo/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/pojo/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign-api/src/main/java/cn/itcast/feign/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/cn/itcast/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/OrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/pojo/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/pojo/Order.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/pojo/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/cn/itcast/order/service/OrderService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -36,11 +34,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -63,33 +61,33 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "/Users/dreammtank125/weifuwu/cloud-demo/feign-api/src/main/java/cn/itcast/feign",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "spring.boot",
-    "spring.configuration.checksum": "93323aa9bdda62807196cceaff038e16",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dreammtank125/weifuwu/cloud-demo/feign-api/src/main/java/cn/itcast/feign&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;spring.boot&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;93323aa9bdda62807196cceaff038e16&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/feign-api/src/main/java/cn/itcast/feign" />
@@ -106,13 +104,26 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.eureka.EurekaApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.itcast.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.itcast.gateway.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.itcast.gateway.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,10 +176,12 @@
       <item itemvalue="Spring Boot.UserApplication (3)" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.EurekaApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
       </list>
     </recent_temporary>
@@ -183,7 +196,8 @@
       <updated>1713355221397</updated>
       <workItem from="1713355222594" duration="5306000" />
       <workItem from="1713361409719" duration="109000" />
-      <workItem from="1713361523298" duration="18911000" />
+      <workItem from="1713361523298" duration="23807000" />
+      <workItem from="1713875638445" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="初始代码">
       <option name="closed" value="true" />
@@ -233,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713446667692</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Feign . http客户端">
+      <option name="closed" value="true" />
+      <created>1713502316618</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713502316618</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +268,8 @@
     <MESSAGE value="ribbon负载均衡修改方式，饥饿加载" />
     <MESSAGE value="Nacos注册中心" />
     <MESSAGE value="Nacos配置管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nacos配置管理" />
+    <MESSAGE value="Feign . http客户端" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feign . http客户端" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
