@@ -6,6 +6,7 @@ import cn.itcast.hotel.service.IHotelService;
 import com.alibaba.fastjson.JSON;
 import org.apache.http.HttpHost;
 import org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest;
+import org.elasticsearch.action.bulk.BulkRequest;
 import org.elasticsearch.action.delete.DeleteRequest;
 import org.elasticsearch.action.get.GetRequest;
 import org.elasticsearch.action.get.GetResponse;
@@ -25,6 +26,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.IOException;
+import java.util.List;
 
 import static cn.itcast.hotel.constants.HotelConstants.MAPPING_TEMPLATE;
 
@@ -67,7 +69,18 @@ public class HotelDocumentTest {
         );
         client.update(request, RequestOptions.DEFAULT);
     }
-
+    @Test
+    void testBulkRequest() throws IOException {
+        List<Hotel> hotels = hotelService.list();
+        BulkRequest request = new BulkRequest();
+        for (Hotel hotel : hotels) {
+            HotelDoc hotelDoc = new HotelDoc(hotel);
+            request.add(new IndexRequest("hotel")
+                    .id(hotel.getId().toString())
+                    .source(JSON.toJSONString(hotelDoc),XContentType.JSON));
+        }
+        client.bulk(request,RequestOptions.DEFAULT);
+    }
     @Test
     void testDeleteDocument() throws IOException {
         DeleteRequest request = new DeleteRequest("hotel", "61083");
